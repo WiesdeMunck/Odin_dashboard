@@ -1,0 +1,58 @@
+/* reset */
+*,
+html,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* color parameters */
+:root {
+    --dark-blue-color: #1f2937;
+    --grey-1-color: #f9faf8;
+    --grey-2-color: #e5e7eb;
+    --blue-1-color: #3882f5;
+
+}
+
+/* general */
+a {
+    color: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+
+/* font parameter */
+:root {
+    --main-font: 'roboto', helvetica, sans-serif;
+}
+
+/* fonts */
+
+html {
+    font-family: var(--main-font);
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+h1, h2, h3 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
