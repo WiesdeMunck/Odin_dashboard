@@ -266,14 +266,14 @@ section.dashboard .sidebar {
     gap: 40px;
 }
 
-section.dashboard .sidebar h2 {
-    margin-bottom: -20px;
-}
-
 section.dashboard .sidebar div{
     box-shadow: var(--box-shadow);  
     border-radius: 6px;  
     background: var(--white);
+}
+
+section.dashboard .sidebar h2 {
+margin-bottom: -20px;
 }
 
 
@@ -292,4 +292,8 @@ section.dashboard .sidebar article p {
     padding-bottom:20px ;
     font-size: 16px;
     color: var(--gray-color-2);
+}
+
+section.dashboard .sidebar div a:last-child p {
+    border:none;
 }
